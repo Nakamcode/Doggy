@@ -32,6 +32,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
     />
 
+    <!--Bootstrap css for offfline  -->
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap js for offline -->
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.esm.min.js"></script>
+
     <!-- Bootstrap icons -->
     <link
       rel="stylesheet"
@@ -43,56 +49,63 @@
   </head>
 
   <body>
+    <div class="container">
+      <!-- Nav Bar -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"> TingDog </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="ms-auto navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> About </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
     <section id="title">
       <div class="container">
-        <!-- Nav Bar -->
-
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-          <div class="container">
-            <a class="navbar-brand" href="#"> TingDog </a>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <ul class="ms-auto navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Home </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> About </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Contact </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
         <!-- Title -->
         <div id="padding-top-top" class="row">
           <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg">
-              <i class="bi bi-apple"></i>Download
-            </button>
-            <button type="button" class="btn btn-outline-light btn-lg">
-              <i class="bi bi-google-play"></i> Download
-            </button>
+            <div class="download-buttons">
+              <button type="button" class="btn btn-dark btn-lg">
+                <i class="bi bi-apple"></i>Download
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg">
+                <i class="bi bi-google-play"></i> Download
+              </button>
+            </div>
           </div>
 
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup" />
+            <img
+              class="title-image"
+              src="images/iphone6.png"
+              alt="iphone-mockup"
+            />
           </div>
         </div>
       </div>
@@ -101,14 +114,27 @@
     <!-- Features -->
 
     <section id="features">
-      <h3>Easy to use.</h3>
-      <p>So easy to use, even your dog could do it.</p>
+      <div class="container">
+        <div class="row">
+          <div class="feature-box col-lg-4 text-center px-5">
+            <i class="bi bi-check-circle-fill fa"></i>
+            <h3>Easy to use.</h3>
+            <p>So easy to use, even your dog could do it.</p>
+          </div>
 
-      <h3>Elite Clientele</h3>
-      <p>We have all the dogs, the greatest dogs.</p>
+          <div class="feature-box col-lg-4 text-center px-5">
+            <i class="bi bi-bullseye fa"></i>
+            <h3>Elite Clientele</h3>
+            <p>We have all the dogs, the greatest dogs.</p>
+          </div>
 
-      <h3>Guaranteed to work.</h3>
-      <p>Find the love of your dog's life or your money back.</p>
+          <div class="feature-box col-lg-4 text-center px-5">
+            <i class="bi bi-heart-fill fa"></i>
+            <h3>Guaranteed to work.</h3>
+            <p>Find the love of your dog's life or your money back.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Testimonials -->

@@ -1,14 +1,55 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 #padding-top-top{
     padding-top: 5em;
 }
 
 #title{
     background-color: #ff4c68;
+    padding-top: 4em;
+    overflow: hidden;
+}
+#title h1{
+    color: #fff;
 }
 
 h1{
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
+}
+h3{
+    /* font-family: "Monsterrat-bold"; */
+    font-weight: 600;
+    font-size: 1.5em;
+}
+.download-buttons{
+    display: flex;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+#title .title-image{
+    /* transform: scale(0.8); */
+    width: 60%;
+    transform: rotate(20deg);
+}
+
+/* second section */
+
+#features{
+    padding: 4em 0;
+}
+#features p{
+    color: #5b5b5b;
+}
+.fa{
+    font-size: 4em;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.fa:hover{
+    color: #ff4c68;
 }
