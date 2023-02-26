@@ -13,12 +13,18 @@ body{
 #title h1{
     color: #fff;
 }
-
+.logo{
+    font-weight: 900;
+}
 h1{
     font-family: 'Montserrat-Black', sans-serif;
     font-size: 3.5rem;
     font-weight: 900;
     line-height: 1.5;
+}
+h2{
+    font-size: 3rem;
+    font-weight: 600;
 }
 h3{
     /* font-family: "Monsterrat-bold"; */
@@ -37,7 +43,7 @@ h3{
     transform: rotate(20deg);
 }
 
-/* second section */
+/* features section */
 
 #features{
     padding: 4em 0;
@@ -52,4 +58,17 @@ h3{
 }
 .fa:hover{
     color: #ff4c68;
+    transition: 0.6s ease-out;
+}
+
+/* testimonials section */
+
+#testimonials{
+    padding: 4em 0;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
 }
