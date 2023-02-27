@@ -34,7 +34,7 @@ h3{
 .download-buttons{
     display: flex;
     gap: 1em;
-    margin-top: 3em;
+    /* margin-top: 3em; */
 }
 
 #title .title-image{
@@ -90,4 +90,8 @@ h3{
 
 #pricing{
     padding: 4em 0;
+}
+
+#footer{
+    background-color: #ff4c68;
 }
