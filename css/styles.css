@@ -18,12 +18,12 @@ body{
 }
 h1{
     font-family: 'Montserrat-Black', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.5em;
     font-weight: 900;
     line-height: 1.5;
 }
 h2{
-    font-size: 3rem;
+    font-size: 2em;
     font-weight: 600;
 }
 h3{
@@ -64,13 +64,15 @@ h3{
 /* testimonials section */
 
 #testimonials{
-    padding: 4em 0;
     background-color: #ef8172;
     color: #fff;
 }
 .testimonial-image{
     width: 10%;
     border-radius: 100%;
+}
+.carousel-item{
+    padding: 4em 10em;
 }
 
 /* press section */
@@ -81,4 +83,10 @@ h3{
 .press-image{
     width: 20%;
     margin: 0 20px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 4em 0;
 }
