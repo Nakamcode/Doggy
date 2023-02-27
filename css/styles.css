@@ -64,6 +64,7 @@ h3{
 /* testimonials section */
 
 #testimonials{
+    padding: 4em 0;
     background-color: #ef8172;
     color: #fff;
 }
@@ -72,7 +73,7 @@ h3{
     border-radius: 100%;
 }
 .carousel-item{
-    padding: 4em 10em;
+    /* padding: 4em 10em; */
 }
 
 /* press section */
