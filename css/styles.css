@@ -72,3 +72,13 @@ h3{
     width: 10%;
     border-radius: 100%;
 }
+
+/* press section */
+#press{
+    background-color: #ef8172;
+    padding: 4em 0;
+}
+.press-image{
+    width: 20%;
+    margin: 0 20px;
+}

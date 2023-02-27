@@ -18,11 +18,13 @@
     <!-- bootstrap links -->
 
     <script
+      defer
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
       integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
       crossorigin="anonymous"
     ></script>
     <script
+      defer
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
       integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
       crossorigin="anonymous"
@@ -36,7 +38,7 @@
     <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css" />
 
     <!-- Bootstrap js for offline -->
-    <script src="bootstrap-5.2.2-dist/js/bootstrap.esm.min.js"></script>
+    <script defer src="bootstrap-5.2.2-dist/js/bootstrap.esm.min.js"></script>
 
     <!-- Bootstrap icons -->
     <link
@@ -141,7 +143,7 @@
 
     <section id="testimonials">
       <div class="container text-center">
-        <h2>
+        <!-- <h2>
           I no longer have to sniff other dogs for love. I've found the hottest
           Corgi on TinDog. Woof.
         </h2>
@@ -150,8 +152,8 @@
           src="images/dog-img.jpg"
           alt="dog-profile"
         />
-        <em>Pebbles, New York</em>
-
+        <em>Pebbles, New York</em> -->
+        <!-- 
         <h2 class="testimonial-text">
           My dog used to be so lonely, but with TinDog's help, they've found the
           love of their life. I think.
@@ -161,17 +163,81 @@
           src="images/lady-img.jpg"
           alt="lady-profile"
         />
-        <em>Beverly, Illinois</em>
+        <em>Beverly, Illinois</em> -->
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text">
+                My dog used to be so lonely, but with TinDog's help, they've
+                found the love of their life. I think.
+              </h2>
+              <img
+                class="testimonial-image m-2"
+                src="images/lady-img.jpg"
+                alt="lady-profile"
+              />
+              <em>Beverly, Illinois</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">
+                My dog used to be so lonely, but with TinDog's help, they've
+                found the love of their life. I think.
+              </h2>
+              <img
+                class="testimonial-image m-2"
+                src="images/lady-img.jpg"
+                alt="lady-profile"
+              />
+              <em>Beverly, Illinois</em>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="..." alt="Third slide" />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
     </section>
 
     <!-- Press -->
 
-    <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo" />
-      <img src="images/tnw.png" alt="tnw-logo" />
-      <img src="images/bizinsider.png" alt="biz-insider-logo" />
-      <img src="images/mashable.png" alt="mashable-logo" />
+    <section id="press" class="text-center">
+      <div class="container">
+        <img class="press-image" src="images/techcrunch.png" alt="tc-logo" />
+        <img class="press-image" src="images/tnw.png" alt="tnw-logo" />
+        <img
+          class="press-image"
+          src="images/bizinsider.png"
+          alt="biz-insider-logo"
+        />
+        <img
+          class="press-image"
+          src="images/mashable.png"
+          alt="mashable-logo"
+        />
+      </div>
     </section>
 
     <!-- Pricing -->
