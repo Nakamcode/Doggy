@@ -4,14 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>TinDog</title>
+    <title>Doggy | Where Dogs meet</title>
 
     <!-- Google fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
       rel="stylesheet"
     />
 
@@ -51,58 +51,82 @@
   </head>
 
   <body>
-    <div class="container">
-      <!-- Nav Bar -->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand logo" href="#"> TingDog </a>
+    <!-- Nav Bar -->
+    <nav id="navbar-bg" class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand logo" href="#"> Doggy </a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <ul class="ms-auto navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#footer"> Contact </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#pricing"> Pricing </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#cta"> Download </a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="ms-auto navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#"> HOME </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#p"> FEATURES </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> PRICING </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> CLIENTS </a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
-    <section id="title">
+    <section id="hero">
       <div class="container">
         <!-- Title -->
-        <div id="padding-top-top" class="row">
-          <div class="col-lg-6">
-            <h1>Meet new and interesting dogs nearby.</h1>
-            <div class="download-buttons pt-5">
-              <button type="button" class="btn btn-dark btn-lg">
-                <i class="bi bi-apple"></i> Download
-              </button>
-              <button type="button" class="btn btn-outline-light btn-lg">
-                <i class="bi bi-google-play"></i> Download
-              </button>
+        <div class="row">
+          <div class="col-lg-7 padding-right">
+            <h1 class="heading">Connect your furry with other dogs on Doggy</h1>
+            <p class="subheading py-3">
+              Join a Vibrant Network of Dog Lovers and Arrange Playdates,
+              Meetups, and More for Your Canine Companion.
+            </p>
+
+            <div class="download-buttons mb-2">
+              <a
+                href="#"
+                class="btn btn-dark btn-lg d-flex justify-content-start align-items-center"
+              >
+                <i class="bi bi-apple"></i>
+                <span class="btn-font">
+                  DOWNLOAD APP
+                  <span class="d-block">From App Store</span>
+                </span>
+              </a>
+              <a
+                href="#"
+                class="btn btn-outline-light btn-lg d-flex justify-content-start align-items-center"
+              >
+                <i class="bi bi-google-play"></i>
+                <span class="btn-font">
+                  DOWNLOAD APP
+                  <span class="d-block">From Play Store</span>
+                </span>
+              </a>
             </div>
+            <a href="#" class="d-flex align-items-center" id="playvideo">
+              <i class="bi bi-play-circle"></i>
+              WATCH VIDEO</a
+            >
           </div>
 
-          <div class="col-lg-6">
+          <div class="col-lg-5">
             <img
               class="title-image"
               src="images/iphone6.png"
@@ -349,27 +373,16 @@
 
     <!-- Footer -->
 
-    <!-- <footer id="footer" class="text-center py-4 text-dark">
-      <div class="social-icons mb-2">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-twitter"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-envelope-fill"></i>
-      </div>
-      <p>© Copyright 2023 | TinDog</p>
-    </footer> -->
-
     <footer id="footer" class="py-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-3">
-            <h3>Doggy</h3>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
-            vitae. Impedit provident eum asperiores vitae repellat quod autem
-            nemo sapiente.
+            <h3 class="mb-4"><strong>Doggy</strong></h3>
+            Join a Vibrant Network of Dog Lovers and Arrange Playdates, Meetups,
+            and More for Your Canine Companion.
           </div>
           <div class="col-lg-3">
-            <h3>Company</h3>
+            <h3 class="mb-4">Company</h3>
             <ul>
               <li>About Us</li>
               <li>Features</li>
@@ -378,7 +391,7 @@
             </ul>
           </div>
           <div class="col-lg-3">
-            <h3>Support</h3>
+            <h3 class="mb-4">Support</h3>
             <ul>
               <li>Help & Support</li>
               <li>Privacy Policy</li>
@@ -386,7 +399,7 @@
             </ul>
           </div>
           <div class="col-lg-3">
-            <h3>Contact us</h3>
+            <h3 class="mb-4">Contact us</h3>
             <ul>
               <li>Address: 795 Folsom Ave</li>
               <li>Phone: (123) 456-7890</li>
