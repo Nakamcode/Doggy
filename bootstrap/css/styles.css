@@ -149,4 +149,7 @@ li{
     gap: 20px;
     font-size: 1.3em;
 }
+.author{
+    text-decoration: underline !important;
+}
 /* footer section ends here */
