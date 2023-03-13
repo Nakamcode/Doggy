@@ -152,11 +152,26 @@ li{
 }
 /* footer section ends here */
 
+.bi-boxes, .bi-chat-square-heart, .bi-fingerprint, .bi-people{
+    font-size: 3em;
+}
 
 /* Media query */
 
 @media screen and (max-width: 912px) {
+    .heading{
+        font-size: 3em;
+    }
     .bottom-space{
         margin-bottom: 2em;
+    }
+    .padding-right{
+        padding-right: 0;
+    }
+    .text-smm-center{
+        text-align: center !important;
+    }
+    .justify-smm-center{
+        justify-content: center;
     }
 }
