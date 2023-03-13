@@ -83,36 +83,37 @@ h1,h2{
 
 
 /* features section begins here */
-
 #features{
 }
-
 /* features section ends here */
 
-/* testimonials section */
-
-#testimonials{
-    padding: 4em 0;
-    background-color: #ef8172;
-    color: #fff;
+/* testimonial section begins here */
+#testimonial{
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
 }
-.testimonial-image{
-    width: 10%;
+.card-testimonial{
+    background-color: #f5f7ff;
+}
+/* .carousel-indicators button {
+    height: 10px !important;
+    width: 10px !important;
+    margin: 0 10px !important;
+    border-radius: 100% !important;
+    background-color: #1963ac !important;
+} */
+.testimonial-img-container{
+    width: 3em;
+    height: 3em;
     border-radius: 100%;
+    overflow: hidden;
+    margin-right: 20px;
 }
-.carousel-item{
-    /* padding: 4em 10em; */
+.testimonial-img-container img{
+    width: 100%;
+    height: 100%;
 }
-
-/* press section */
-#press{
-    background-color: #ef8172;
-    padding: 4em 0;
-}
-.press-image{
-    width: 20%;
-    margin: 0 20px;
-}
+/* testimonial section ends here */
 
 /* pricing section begins here */
 #pricing{
@@ -123,10 +124,7 @@ h1,h2{
     font-size: 0.5em !important;
 }
 /* pricing section ends here */
-#cta{
-    padding: 5em 0;
-    background-color: #ff4c68;
-}
+
 
 /* foooter section begins here */
 #footer{
