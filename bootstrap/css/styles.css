@@ -173,7 +173,7 @@ li{
         text-align: center !important;
     }
     .justify-smm-center{
-        justify-content: center;
+        justify-content: center !important;
     }
     .py-smm{
         padding: 2em 0 !important;
