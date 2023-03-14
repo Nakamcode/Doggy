@@ -8,6 +8,7 @@
     --primary-color: #c8d4ff;
     --secondary-color: #212529;
     --blue-color: #19198e;
+    --border-color: #9c9a9a;
 }
 .text-blue{
     color: var(--blue-color) !important;
@@ -43,7 +44,7 @@ h1,h2{
 /* hero section begins here */
 #hero{
     background-color: var(--primary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    border-bottom: 1px solid var(--border-color);
 }
 .padding-right{
     padding-right: 5em;
@@ -89,19 +90,12 @@ h1,h2{
 
 /* testimonial section begins here */
 #testimonial{
-    border-top: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 .card-testimonial{
     background-color: #f5f7ff;
 }
-/* .carousel-indicators button {
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0 10px !important;
-    border-radius: 100% !important;
-    background-color: #1963ac !important;
-} */
 .testimonial-img-container{
     width: 3em;
     height: 3em;
